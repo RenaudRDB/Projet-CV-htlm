@@ -1,0 +1,21 @@
+.test {
+	text-align: center;
+	display: inline;
+	border: 3px #FFA500 solid;
+	position:relative;
+}
+
+.photo {
+	width: 15% ;
+	height: 15% ;
+	position: left absolute;
+}
+
+.bloc-gauche {
+	display: flex;
+	flex-direction: row;
+}
+
+.bloc-droite {
+
+}

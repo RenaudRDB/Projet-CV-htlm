@@ -1,21 +1,21 @@
 .test {
 	text-align: center;
 	display: inline;
-	border: 3px #FFA500 solid;
-	position:relative;
+	border: 3px #000000 solid;
 }
 
-.photo {
-	width: 40% ;
-	height: 40% ;
-	position: left absolute;
+.photo img {
+	width: 100%;
+	height:auto;
 }
 .container {
 	display: flex;
 	justify-content: center;
 }
 .bloc-gauche {
-
+	border: 10px #EC840F solid;
+	width: 300px;
+	background-color: #EC840F;
 }
 
 .bloc-droite {

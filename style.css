@@ -25,7 +25,7 @@
 	background-color: #FFFFFF;	
 }
 .bloc-droite h2 {
-	background-color: #869AA2;
+	background-color: #D6EAF8;
 	border-top: 2px #000000 solid;
 	border-bottom: 2px #000000 solid;
 }
@@ -44,36 +44,41 @@ h2 {
 }
 /*Attribut de l'accroche*/
 .accroche {
+	border: 2px #5DADE2 solid;
 	text-align: center;
-	background-color: #869AA2 ;
+	background-color: #D6EAF8 ;
 	box-shadow : 3px 3px 0px #000000;	
 }
 /*Attribut de la box contact*/
 .contact {
 	text-align: left;
-	background-color: #869AA2 ;
+	background-color: #D6EAF8 ;
 	box-shadow : 3px 3px 0px #000000 ;
 }
 
 .contact h2 {
-	background-color: #35B2E5;
+	background-color: #5DADE2;
+}
+
+.texte {
+	padding: 0px 20px 1px;
 }
 /*Attribut de la box hobby*/
 .hobby {
 	text-align: left;
-	background-color: #225EC8 ;
+	background-color: #D6EAF8 ;
 	box-shadow : 3px 3px 0px #000000 ;
 }
 
 .hobby h2 {
-	background-color: #35B2E5;
+	background-color: #5DADE2;
 }
 /*Attribut de la box ambition*/
 .ambition {
 	text-align: left;
-	background-color: #225EC8 ;
+	background-color: #D6EAF8 ;
 	box-shadow : 3px 3px 0px #000000
 }
 .ambition h2 {
-	background-color: #35B2E5
+	background-color: #5DADE2
 }

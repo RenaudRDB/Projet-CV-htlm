@@ -1,23 +1,79 @@
-.test {
-	text-align: center;
-	display: inline;
-	border: 3px #000000 solid;
-}
-
+/*Parametre de la photo*/
 .photo img {
 	width: 100%;
 	height:auto;
 }
+/*La plus grosse "boite"*/
 .container {
 	display: flex;
 	justify-content: center;
 }
+
+/*Le bloc apparaissant a gauche*/
 .bloc-gauche {
 	border: 10px #EC840F solid;
 	width: 300px;
 	background-color: #EC840F;
 }
-
+/*Le bloc apparaissant a droite*/
 .bloc-droite {
+	display: flex;
+	flex-direction: column;
+
+	border: 2px #000000 solid;
+	width: 300px;
+	background-color: #FFFFFF;	
+}
+.bloc-droite h2 {
+	background-color: #869AA2;
+	border-top: 2px #000000 solid;
+	border-bottom: 2px #000000 solid;
+}
+.bloc-droite h1 {
+	border-top: 2px #000000 solid;
+	border-bottom: 2px #000000 solid;
+	text-align: center;
+}
+/*Tous les titres de rang 2*/
+h2 {
+	text-align: center;
+}
+/*Attribut des listes du bloc de droite*/
+.liste {
 	
+}
+/*Attribut de l'accroche*/
+.accroche {
+	text-align: center;
+	background-color: #869AA2 ;
+	box-shadow : 3px 3px 0px #000000;	
+}
+/*Attribut de la box contact*/
+.contact {
+	text-align: left;
+	background-color: #869AA2 ;
+	box-shadow : 3px 3px 0px #000000 ;
+}
+
+.contact h2 {
+	background-color: #35B2E5;
+}
+/*Attribut de la box hobby*/
+.hobby {
+	text-align: left;
+	background-color: #225EC8 ;
+	box-shadow : 3px 3px 0px #000000 ;
+}
+
+.hobby h2 {
+	background-color: #35B2E5;
+}
+/*Attribut de la box ambition*/
+.ambition {
+	text-align: left;
+	background-color: #225EC8 ;
+	box-shadow : 3px 3px 0px #000000
+}
+.ambition h2 {
+	background-color: #35B2E5
 }

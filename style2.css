@@ -1,0 +1,24 @@
+/*La plus grosse "boite"*/
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+/*paramettre fond écran bloc du haut*/
+.bloc-du-haut {
+	display: flex;
+	flex-direction: column;
+	
+	background-image: url(fondorange.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 50vh
+	border: 10px #000000 solid;
+}
+
+/*paramattre de la photo*/
+.photo img {
+	width: 100%;
+	height:auto;
+}

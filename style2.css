@@ -2,23 +2,51 @@
 .container {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+
 }
 
 /*paramettre fond écran bloc du haut*/
 .bloc-du-haut {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	
 	background-image: url(fondorange.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 50vh
-	border: 10px #000000 solid;
+	height: 50vh;
+	border: 1px #000000 solid;
+}
+
+/*parametre barre du haut*/
+.nompage-et-bouton {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
 }
 
 /*paramattre de la photo*/
 .photo img {
-	width: 100%;
+	width: 300px;
 	height:auto;
+}
+
+/*paramettre fond ecran bloc bas*/
+
+.bloc-du-bas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	background-image: url(fondgris.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 50vh;
+	border: 1px #000000 solid;
 }

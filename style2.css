@@ -29,6 +29,29 @@
 
 }
 
+/* parametre du nom de la page*/
+.nom-page {
+	width: 50%;
+}
+
+/* parametre du nom de la page*/
+.button {
+	width: 50%;
+	text-align: right;
+	padding-top: 25px;
+	padding-right: 25px;
+}
+
+/*parametre du nom prenom photo et metier*/
+.nom-photo-metier {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
 /*paramattre de la photo*/
 .photo img {
 	width: 300px;

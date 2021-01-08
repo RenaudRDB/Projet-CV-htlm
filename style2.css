@@ -4,143 +4,145 @@
 		justify-content: center;
 		flex-direction: column;
 
-	}
-
-/*Le Body*/
-	body {
-		margin: 0;
-	}
-
-/*paramettre fond écran bloc du haut / bloc principal*/
-	.bloc-du-haut {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-		
-		background-image: url(fondorange.jpg);
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 100vh;
-		border: 1px #000000 solid;
-	}
-
-/*parametre barre du haut*/
-	.nompage-et-bouton {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		font-family:"Verdana", sans-serif; 
+		color:#E5E8E8;
 
 	}
 
-	header{
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+	/*Le Body*/
+		body {
+			margin: 0;
+		}
 
-	}
+	/*paramettre fond écran bloc du haut / bloc principal*/
+		.bloc-du-haut {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			
+			background-image: url(fondorange.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100vh;
 
-/* parametre du nom de la page*/
-	.nom-page {
-		width: 50%;
-		padding-left: 50px;
-	}
+		}
 
-/* parametre du nom de la page*/
-	.button {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
+		/*parametre du header*/
+			header{
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
 
-		width: 50%;
-		text-align: right;
-		padding-top: 25px;
-		padding-right: 25px;
-		padding-left: 25px;
-	}
+					position: fixed;
+			  		left: 0; right: 0; top: 0;
+			  		height: 25vh;
 
-/* parametre rainbow button */
+				}
 
-	a {
-	  text-decoration:none;
-	  color:#FFF;
-	}
-	.rainbow-button {
-	  width:calc(8vw + 7px);
-	  height:calc(2.5vw + 7px);
-	  background-image: linear-gradient(90deg, #FFFFFF 0%, #85C1E9 49%, #85C1E9 80%, #2E86C1 100%);
-	  border-radius:5px;
-	  display:flex;
-	  align-items:center;
-	  justify-content:center;
-	  text-transform:uppercase;
-	  font-size:1.25vw;
-	  font-weight:bold;
-	}
-	.rainbow-button:after {
-	  content:attr(title);
-	  width:8vw;
-	  height:2.5vw;
-	  border-radius: 5px;
-	  background-color:#191919;
-	  display:flex;
-	  align-items:center;
-	  justify-content:center;
-	}
-	.rainbow-button:hover {
-	  animation:slidebg 3s linear infinite;
-	}
+			/*parametre barre du haut*/
+				.nompage-et-bouton {
+					width: 100%;
+					display: flex;
+					flex-direction: row;
 
-	@keyframes slidebg {
-	  to {
-	    background-position:20vw;
-	  }
-	}
+				}
 
-/*parametre du nom prenom photo et metier*/
-	.nom-photo-metier {
-		width: 100%;
+			/* parametre du nom de la page*/
+				.nom-page {
+					width: 50%;
+					padding-left: 50px;
+				}
 
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		align-content: space-between;
-	}
+			/* parametre des boutons*/
+				.button {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-evenly;
+					align-items: center;
 
-/*parametre nom prenom*/
-	.nom-prenom {
-		width: 20%;
-		text-align: center;
-	}
+					width: 50%;
+					padding-right: 25px;
+					padding-left: 25px;
+				}
 
-/*parametre metier*/
-	.metier {
-		width: 20%;
-		text-align: center;
-	}
+				/* parametre rainbow button */
 
-/*paramattre de la photo*/
-	.photo img {
-		width: 300px;
-		height:auto;
-		border-radius: 150px;
-	}
+					a {
+					  text-decoration:none;
+					  color:#FFF;
+					}
+					.rainbow-button {
+					  width:calc(8vw + 7px);
+					  height:calc(2.5vw + 7px);
+					  background-image: linear-gradient(90deg, #FFFFFF 0%, #85C1E9 49%, #85C1E9 80%, #2E86C1 100%);
+					  border-radius:5px;
+					  display:flex;
+					  align-items:center;
+					  justify-content:center;
+					  text-transform:uppercase;
+					  font-size:1.25vw;
+					  font-weight:bold;
+					}
+					.rainbow-button:after {
+					  content:attr(title);
+					  width:8vw;
+					  height:2.5vw;
+					  border-radius: 5px;
+					  background-color:#191919;
+					  display:flex;
+					  align-items:center;
+					  justify-content:center;
+					}
+					.rainbow-button:hover {
+					  animation:slidebg 4s linear infinite;
+					}
 
-/*paramettre fond ecran bloc bas*/
-	.bloc-du-bas {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+					@keyframes slidebg {
+					  to {
+					    background-position:20vw;
+					  }
+					}
 
-		background-image: url(fondgris.jpg);
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		height: 50vh;
-		border: 1px #000000 solid;
-	}
+			/*parametre du nom prenom photo et metier*/
+				.nom-photo-metier {
+					width: 100%;
+
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: center;
+					align-content: space-between;
+					padding-bottom: 25px;
+				}
+
+			/*parametre nom prenom*/
+				.nom-prenom {
+					width: 20%;
+					text-align: center;
+				}
+
+			/*parametre metier*/
+				.metier {
+					width: 20%;
+					text-align: center;
+				}
+
+			/*paramattre de la photo*/
+				.photo img {
+					width: 30vh;
+					height:auto;
+					border-radius: 150px;
+				}
+
+	/*paramettre fond ecran bloc bas*/
+		.bloc-du-bas {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			height: 75vh;
+		}

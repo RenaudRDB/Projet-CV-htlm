@@ -137,7 +137,7 @@
 					border-radius: 150px;
 				}
 
-	/*paramettre fond ecran bloc bas*/
+	/*paramettre bloc bas*/
 		.bloc-du-bas {
 			display: flex;
 			flex-direction: column;
@@ -146,3 +146,51 @@
 
 			height: 75vh;
 		}
+
+		/*parametre de la phrase d'accroche et du resume*/
+		.resume-accroche {
+			text-align : center;
+
+		}
+			/*parametre resume*/
+			.resume {
+
+				padding-top: 50px;
+
+			}
+
+		/*parametre double bloc page parcours et contact*/
+		.bloc-gauche-et-droit {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			width: 100%;
+			height: 60vh;
+			border: 5px #000000 solid;
+
+		}
+
+		/*parametre bas page parcours*/
+
+			/*parametre bloc gauche*/
+			.bloc-gauche {
+				
+				padding-left: 5vw;
+				text-align: left;
+
+				width: 33vw;
+				border: 5px #000000 solid;
+
+			}
+
+			/*parametre bloc droit*/
+			.bloc-droit {
+
+				padding-right: 5vw;
+				text-align: left;
+
+				width: 33vw;
+				border: 5px #000000 solid;
+
+			}

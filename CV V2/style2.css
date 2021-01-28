@@ -163,7 +163,7 @@
 		.bloc-gauche-et-droit {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-between;
+			justify-content: center;
 
 			width: 100%;
 			height: 60vh;
@@ -175,7 +175,7 @@
 			/*parametre bloc gauche*/
 			.bloc-gauche {
 				
-				padding-left: 5vw;
+				padding-left: 10vw;
 				text-align: left;
 
 				width: 33vw;
@@ -186,7 +186,7 @@
 			.bloc-droit {
 
 				padding-right: 5vw;
-				padding-left: 2vw;
+				padding-left: 20vw;
 				text-align: left;
 
 				width: 31vw;
